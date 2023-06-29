@@ -2,10 +2,10 @@
 ![Avatar](./img/ava.jpg)
 ## My Contact Info
 
-Address: Calle Juan Ruiz de Alarcon 519, Guadalajara, Mexico. <br>
-Phone: +3344050457. <br>
-E-mail: zhurina50@gmail.com. <br>
-GitHub: zhurina50.<br>
+Address: Calle Juan Ruiz de Alarcon 519, Guadalajara, Mexico.   
+Phone: +3344050457.   
+E-mail: zhurina50@gmail.com.   
+GitHub: zhurina50.   
 Discord: zhurina50.
 
 
@@ -32,3 +32,13 @@ const reversed = subarray.reverse();
 return reversed.flat();
 }
 ```
+## Education
+* Cherepovets Medical School named after Ammosov,
+* [HTML Academy](https://htmlacademy.ru/) (HTML/CSS, did not graduate),
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress).
+
+## Languages
+
+* Russian - native speaker.
+* English - A2.
+ 
