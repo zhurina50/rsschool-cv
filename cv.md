@@ -1,5 +1,5 @@
 # Zhurina Valeriia
-
+![Avatar](./img/ava.jpg)
 ## My Contact Info
 
 Address: Calle Juan Ruiz de Alarcon 519, Guadalajara, Mexico. <br>
