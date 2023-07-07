@@ -1,13 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>CV</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="navigation">
+                    <li class="navigation-item"><a class="link" href="#Contact">Contact</a></li>
+                    <li class="navigation-item"><a class="link" href="#Skills">Skills</a></li>
+                    <li class="navigation-item"><a class="link" href="#Education">Education</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1 class="visually-hidden">CV</h1>
+            <div class="profile">
+                <img class="avatar" src="./img/ava.jpg" alt="my foto" width="268" height="268">
+                <div class="profile-wrap">
+                    <p class="name">Zhurina Valeriia</p>
+                    <p>Front-end web developer (Beginner)</p>
 
-</body>
+                    <h2 id="Contact">Contact</h2>
+                    <ul>
+                        <li class="contact-list"><img class="pin" src="./img/place.svg" width="16" height="16" alt="">Guadalajara,
+                            Mexico
+                        </li>
+                        <li class="contact-list"><img class="pin" src="./img/mail.svg" width="16" height="16" alt="">zhurina50@gmail.com
+                        </li>
+                        <li class="contact-list"><img class="pin" src="./img/github.svg" width="16" height="16" alt="">zhurina50
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2>About me</h2>
+            <p>I am 33. This is a good age for a radical change in life. In a past life, I was a doctor,
+                I saved lives, I made decisions, I was responsible, I used my mind and logic.
+                And that's what I'm going to take into the future.</p>
+            <div class="info">
+                <div class="skills">
+                    <h2 id="Skills">Skills</h2>
+                    <ul>
+                        <li>HTML (basic knowledge)</li>
+                        <li>CSS (basic knowledge)</li>
+                    </ul>
+                    <h2>Code example</h2>
+                    <pre>
+            <code>
+            function dataReverse(data) {
+            let subarray = [];
+            const size = 8;
+
+            for (let i = 0; i &gt; data.length; i += size) {
+            subarray.push(data.slice(i, i + size));
+            }
+            const reversed = subarray.reverse();
+            return reversed.flat();
+            }
+            </code>
+                     </pre>
+                </div>
+                <div class="education">
+                    <h2 id="Education">Education</h2>
+                    <ul>
+                        <li>
+                            Cherepovets Medical School named after Ammosov
+                        </li>
+                        <li>
+                            <a class="education-link" href="https://htmlacademy.ru/">HTML Academy</a> (HTML/CSS, did not
+                            graduate). Project <a class="education-link" href="https://github.com/zhurina50/1894599-sedona-33">Sedona</a> (not finished)
+                        </li>
+                        <li>
+                            RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+                        </li>
+                    </ul>
+
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>Russian - native speaker</li>
+                        <li>English - A2. I have had a communication experience</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <ul class="footer">
+                <li class="footer-list">
+                    <a class="link" href="https://github.com/zhurina50"><img class="pin" src="./img/github.svg"
+                                                                             width="35"
+                                                                             height="35" alt="github"></a>
+                </li>
+                <li class="footer-list">
+                    <a class="link" href="https://rs.school/"><img class="pin" src="./img/rs_school_js.svg" width="60"
+                                                                   height="60" alt="rs school"></a>
+                </li>
+                <li class="footer-list">
+                    <a class="link" href="https://rs.school/js-stage0/">Completed for the preparatory course
+                        "JavaScript/Front-end. Stage 0», 2023</a>
+                </li>
+            </ul>
+        </footer>
+
+    </body>
 </html>
