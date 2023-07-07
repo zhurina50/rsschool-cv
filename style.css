@@ -1,0 +1,68 @@
+body {
+    background: #8c8779;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+header, footer {
+    background: #4a4843;
+    color: white;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    background: #6b6964;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation, .footer {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 0;
+}
+
+.navigation-item {
+    padding: 10px;
+    margin-right: 40px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.name {
+    font-size: 40px;
+    margin: 5px 200px 5px 5px;
+}
+
+.contact-list {
+    list-style-type: none;
+}
+
+.pin {
+    margin: 5px 5px 0 0;
+}
+
+.footer-list {
+    margin: auto 20px auto 20px;
+}
+
+.education-link {
+    color: black;
+}

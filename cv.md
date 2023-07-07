@@ -41,4 +41,4 @@ return reversed.flat();
 
 * Russian - native speaker.
 * English - A2.
- 
+
